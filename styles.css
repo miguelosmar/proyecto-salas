@@ -1,0 +1,102 @@
+/* Estilos generales del fondo */
+body {
+    background: linear-gradient(135deg, #ba7af1, #ec84db);
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  
+  .container {
+    min-height: 100vh;
+  }
+  
+  /* Diseño de las tarjetas del formulario */
+  .card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 25px;
+    padding: 2rem;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .form-label {
+    color: #555;
+  }
+  
+  /* Input más moderno */
+  .form-control {
+    border-radius: 10px;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    transition: border 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #4A00E0;
+    box-shadow: 0px 0px 10px rgba(74, 0, 224, 0.3);
+  }
+  
+  /* Estilo de botones */
+  .btn {
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #eb2cdb;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3500d3;
+    box-shadow: 0px 5px 15px rgba(58, 0, 179, 0.3);
+  }
+  
+  .btn-success {
+    background-color: #ec63e5;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    box-shadow: 0px 5px 15px rgba(33, 136, 56, 0.3);
+  }
+  
+  /* Estilo para links */
+  a {
+    color: #8E2DE2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Transiciones suaves para el cambio entre formularios */
+  .card p {
+    color: #666;
+  }
+  
+  .card .text-center a {
+    color: #8E2DE2;
+  }
+  
+  .card .text-center a:hover {
+    color: #5d3f91;
+  }
+  
+  
